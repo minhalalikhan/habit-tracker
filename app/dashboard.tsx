@@ -12,7 +12,7 @@ export default function NewPage() {
     >
       <Stack.Screen options={{ title: "Dashboard" }} />
       <Text>Dashboard page</Text>
-      <Link href={"/"} style={{ marginTop: 20, fontSize: 18, color: "blue" }}>
+      <Link href={".."} style={{ marginTop: 20, fontSize: 18, color: "blue" }}>
         Go to Home
       </Link>
     </View>
